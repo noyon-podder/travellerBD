@@ -23,7 +23,8 @@ const Navbar = () => {
       <Container>
         <nav className="py-4">
           <section className="flex flex-row justify-between items-center">
-            <Logo />
+            {/* <Logo /> */}
+            <h2 className="text-2xl font-bold">TravelBD</h2>
             <UserMenu />
           </section>
         </nav>

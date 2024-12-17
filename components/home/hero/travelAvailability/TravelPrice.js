@@ -84,14 +84,14 @@ const TravelPrice = () => {
                             width: 100%;
                             height: 5px;
                             border-radius: 50px;
-                            background-color: #01BC1FD6;
+                            background-color: #824fffD6;
                             -webkit-appearance: none;
                             appearance: none;
                             outline: none;
                             &::-webkit-slider-thumb {
                               width: 15px;
                               height: 15px;
-                              background-color: #E4FFEA;
+                              background-color: #e4d9ff;
                               border-radius: 50%;
                               cursor: pointer;
                               -webkit-appearance: none;
@@ -102,7 +102,7 @@ const TravelPrice = () => {
                             &::-moz-range-thumb {
                               width: 15px;
                               height: 15px;
-                              background-color: #E4FFEA;
+                              background-color: #e4d9ff;
                               border-radius: 50%;
                               cursor: pointer;
                               cursor: grab;

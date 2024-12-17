@@ -11,6 +11,8 @@ import Blogs from "@/components/home/blogs/Blogs";
 import Reviews from "@/components/shared/review/Reviews";
 import Gallery from "@/components/home/gallery/Gallery";
 import NewsLetter from "@/components/home/news-letter/NewsLetter";
+import FAQ from "@/components/detail/FAQ";
+import Location from "@/components/detail/Location";
 
 export default function Home() {
   return (
@@ -24,7 +26,7 @@ export default function Home() {
       <Main>
         <Hero />
         <Offer />
-        <PopularDestination />
+        {/* <PopularDestination /> */}
         <BestSelling />
         <Advantage />
         <Reviews />

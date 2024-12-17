@@ -1,16 +1,15 @@
 /**
  * Title: Write a program using JavaScript on FAQ
- * Author: Hasibul Islam
- * Portfolio: https://devhasibulislam.vercel.app
- * Linkedin: https://linkedin.com/in/devhasibulislam
- * GitHub: https://github.com/devhasibulislam
- * Facebook: https://facebook.com/devhasibulislam
- * Instagram: https://instagram.com/devhasibulislam
- * Twitter: https://twitter.com/devhasibulislam
- * Pinterest: https://pinterest.com/devhasibulislam
- * WhatsApp: https://wa.me/8801906315901
- * Telegram: devhasibulislam
- * Date: 21, October 2023
+ * Author: Noyon Podder
+ * Portfolio: https://dev-noyon.vercel.app/
+ * Linkedin: https://linkedin.com/in/dev-noyon
+ * GitHub: https://github.com/noyon-podder
+ * Facebook: https://www.facebook.com/noyon.Podder7/
+ * Instagram: https://www.instagram.com/noyon.podder7/
+ * Twitter: https://x.com/noyon_podder7
+ * WhatsApp: https://wa.me/8801752441505
+ * Telegram: https://t.me/Noyonpodder7
+ * Date: 17 December 2024
  */
 
 import React, { useState } from "react";
@@ -139,9 +138,7 @@ function Card({ index, faq, isExpanded, onToggleCollapse }) {
       {isExpanded && (
         <div className="absolute top-8 left-0 w-full z-50 border p-4 rounded bg-white mt-2">
           <h2 className="mb-2 text-base">{faq.question}</h2>
-          <p className="text-sm">
-            {faq.answer}
-          </p>
+          <p className="text-sm">{faq.answer}</p>
           <span className="triangle absolute -top-3 right-2" />
 
           <style js>
